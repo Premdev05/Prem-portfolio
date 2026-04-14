@@ -9,10 +9,10 @@ const Home = () => {
         {/* Left Section */}
         <div className="order-2 lg:order-1 flex flex-col items-center md:items-start justify-start space-y-5 text-center md:text-left">
           <h1 className="text-3xl md:text-5xl font-bold">
-            I’m <span className="text-[#fe5617]">Premkumar</span>
+            I’m <span className="text-[#a217fe]">Premkumar</span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-bold flex gap-2">
-            <span className="text-[#fe5617]">I’m a</span>
+            <span className="text-[#a217fe]">I’m a</span>
             <Typewriter
               options={{
                 strings: [
@@ -28,28 +28,27 @@ const Home = () => {
           </h2>
           {/* About Me */}
           <p className="text-lg md:text-xl text-gray-700 font-medium">
-            A entry level front end developer,
-            dedicated to building user-friendly web applications.
+           "Aspiring Full Stack Developer specialized in the modern JavaScript ecosystem. Proficient in crafting modular frontend components with React and styling with Tailwind CSS, supported by a portfolio of functional web projects. Distinguished by advanced design proficiency in Adobe Creative Suite, allowing for rapid prototyping and high-fidelity visual development. Eager to contribute to a fast-paced team and grow within a full-stack environment."
           </p>
 
           {/* Contact Information */}
-          <div className=" flex flex-col space-y-3 md:space-y-0 md:flex-row md:gap-6 text-lg md:text-xl font-semibold ">
+          <div className=" flex flex-col space-y-4 md:space-y-0 md:flex-row md:gap-6 text-lg md:text-xl font-semibold ">
             <div className="flex items-center gap-3">
-              <FaLocationDot className="text-[#fe5617]" size={20} />
+              <FaLocationDot className="text-[#a217fe]" size={20} />
               <span>Tirupur</span>
             </div>
-            <div className="flex items-center gap-3">
-              <FaPhoneAlt className="text-[#fe5617]" size={20} />
-              <span>+91 6369340852</span>
+            <div className="flex  items-center gap-3">
+              <FaPhoneAlt className="text-[#a217fe]" size={20} />
+              <span>+916369340852</span>
             </div>
             <div className="flex items-center gap-3">
-              <FaEnvelope className="text-[#fe5617]" size={20} />
+              <FaEnvelope className="text-[#a217fe]" size={20} />
               <span>premkumar200305@gmail.com</span>
             </div>
           </div>
           {/* Button */}
-          <div className="bg-[#fe5617] px-5 py-2 rounded-2xl font-bold ">
-            <a href="/PREMKUMAR M_Developer.pdf" download>Download CV</a>
+          <div className="bg-[#a217fe] px-5 py-2 rounded-2xl font-bold ">
+            <a href="/Premkumar M.pdf" download>Download CV</a>
           </div>
         </div>
 

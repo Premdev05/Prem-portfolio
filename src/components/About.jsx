@@ -10,6 +10,7 @@ import {
   FaNode,
 } from "react-icons/fa";
 import {
+  SiTypescript,
   SiAdobephotoshop,
   SiAdobeillustrator,
   SiTailwindcss,
@@ -34,19 +35,22 @@ const About = () => {
     <div id="about" className="bg-[#ffffff] min-h-screen flex items-center">
       <div className="max-w-[90%] md:max-w-[75%] mx-auto font-inter space-y-10 py-10">
         {/* Header */}
-        <h1 className="text-4xl md:text-5xl font-bold text-center text-[#fe5617]">
+        <h1 className="text-4xl md:text-5xl font-bold text-center text-[#a217fe]">
           About Me
         </h1>
 
         {/* About Me Section */}
-        <p className="text-lg md:text-xl text-gray-700 text-center leading-relaxed">
-          I’m <span className="font-bold text-[#fe5617]">Premkumar</span>,
-          Aspiring a entry level front end developer with building projects and delivering projects.
+        <p className="text-xl md:text-2xl text-gray-700 text-center leading-relaxed">
+          I’m <span className="font-bold text-[#a217fe]">Premkumar</span>,
+          Aspiring Full Stack Developer specialized in the modern JavaScript ecosystem. 
+          Proficient in crafting modular frontend components with React and styling with Tailwind CSS, supported by a portfolio of functional web projects. 
+          Distinguished by advanced design proficiency in Adobe Creative Suite, allowing for rapid prototyping and high-fidelity visual development. 
+          Eager to contribute to a fast-paced team and grow within a full-stack environment.
         </p>
 
         {/* Skills Section */}
         <div className="space-y-8">
-          <h2 className="text-2xl font-bold text-[#fe5617] text-center">
+          <h2 className="text-2xl font-bold text-[#a217fe] text-center">
             My Skills
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
@@ -76,17 +80,30 @@ const About = () => {
               <span className="font-bold">React.js</span>
             </div>
             <div className="flex flex-col items-center space-y-2">
-              <SiAdobephotoshop size={40} className="text-[#000000] bg-[#15c6e6] rounded-xl" />
+              <SiAdobephotoshop
+                size={40}
+                className="text-[#000000] bg-[#15c6e6] rounded-xl"
+              />
               <span className="font-bold">Photshop</span>
             </div>
             <div className="flex flex-col items-center space-y-2">
-              <SiAdobeillustrator size={40} className="text-[#000000d7] bg-[#ff9c09] rounded-xl" />
+              <SiAdobeillustrator
+                size={40}
+                className="text-[#000000d7] bg-[#ff9c09] rounded-xl"
+              />
               <span className="font-bold">Illustrator</span>
             </div>
-            {/* <div className="flex flex-col items-center space-y-2">
+            <div className="flex flex-col items-center space-y-2">
+              <SiTypescript
+                size={40}
+                className="text-[#007ACC] bg-[#ffffff] rounded-xl"
+              />
+              <span className="font-bold">Typescript</span>
+            </div>
+            <div className="flex flex-col items-center space-y-2">
               <IoLogoNpm size={40} className="text-[#CB3837]" />
               <span className="font-bold">NPM</span>
-            </div> */}
+            </div>
             <div className="flex flex-col items-center space-y-2">
               <FaNode size={40} className="text-[#68a063]" />
               <span className="font-bold">Node.js</span>
@@ -134,22 +151,23 @@ const About = () => {
             <div className="flex flex-col items-center space-y-2">
               <IoLogoVercel size={40} className="text-[#000]" />
               <span className="font-bold">Vercel</span>
-            </div>
+            </div> */}
             <div className="flex flex-col items-center space-y-2">
               <SiNetlify size={40} className="text-[#00d1b2]" />
               <span className="font-bold">Netlify</span>
-            </div> */}
+            </div>
             {/* <div className="flex flex-col items-center space-y-2">
               <SiRender size={40} className="text-[#000]" />
               <span className="font-bold">Render</span>
-            </div>
+            </div> */}
             <div className="flex flex-col items-center space-y-2">
               <FaFigma size={40} className="text-[#F24E1E]" />
-              <span className="font-bold">Figma</span> */}
+              <span className="font-bold">Figma</span>
             </div>
           </div>
         </div>
       </div>
+    </div>
   );
 };
 

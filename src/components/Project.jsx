@@ -3,112 +3,104 @@ const Project = () => {
     <div id="project" className="bg-[#ffffff] min-h-screen flex items-center">
       <div className="max-w-[90%] md:max-w-[75%] mx-auto font-inter space-y-10 ">
         {/* Header */}
-        <h1 className="text-4xl md:text-5xl font-bold text-center text-[#fe5617]">
+        <h1 className="text-4xl md:text-5xl font-bold text-center text-[#a217fe]">
           My Projects
         </h1>
 
         {/* Project 1 and 2 in one row */}
         <div className="flex flex-col md:flex-col gap-10">
-          {/* PetPals Project */}
+          {/* Cloud-Vault Project */}
           <div className="w-full md:w-1/2 flex flex-col items-center bg-[#F2EFE5] p-6 rounded-2xl shadow-lg">
-            <h1 className="text-[#fe5617] font-extrabold text-[32px] mb-4">
-              Tic-Tac-Toe-AI
+            <h1 className="text-[#a217fe] font-extrabold text-[32px] mb-4">
+              Cloud-Vault
             </h1>
             <p className="text-lg text-gray-700 mb-4">
-              A Tic-Tac-Toe game playing ai. Built using React, Node.js, and
-              styled with Tailwind CSS.
+              A cloud-based file storage solution.
+              Built using React, User Authentication using Firebase, Store a file using Appwrite and styled with Tailwind CSS.
             </p>
             <a
-              href="https://capable-sable-00f949.netlify.app/"
-              className="text-[#fe5617] font-bold text-lg hover:underline"
+              href="https://cloudvault05.netlify.app/"
+              className="text-[#a217fe] font-bold text-lg hover:underline"
             >
               Live Demo
             </a>
           </div>
 
-          {/* Biosta AI Project */}
-          {/* <div className="w-full md:w-1/2 flex flex-col place-self-end bg-[#F2EFE5] p-6 rounded-2xl shadow-lg">
-            <h1 className="text-center text-[#fe5617] font-extrabold text-[32px] mb-4">
-              Biosta AI
+          {/* Draw-app Project */}
+           <div className="w-full md:w-1/2 flex flex-col place-self-end bg-[#F2EFE5] p-6 rounded-2xl shadow-lg">
+            <h1 className="text-center text-[#a217fe] font-extrabold text-[32px] mb-4">
+              Draw-app  
             </h1>
             <p className="text-lg text-gray-700 mb-4">
-              An AI-based platform that optimizes user bio data using the Gemini
-              API. Developed with React.js, this app helps users to improve
-              their biological data using advanced AI algorithms.
+              A drawing application with basic Undo,Redo and Clear Option with includes Shapes. Built with React.js and styled using Tailwind CSS, providing a user-friendly interface for artists of all levels.
             </p>
             <a
-              href="https://biosta.netlify.app/"
-              className="text-[#fe5617] text-center font-bold text-lg hover:underline"
+              href="https://drawapp05.netlify.app/"
+              className="text-[#a217fe] text-center font-bold text-lg hover:underline"
             >
               Live Demo
             </a>
-          </div> */}
+          </div>
         </div>
         <div className="flex flex-col md:flex-col gap-10">
-          {/* PetPals Project */}
-          {/* <div className="w-full md:w-1/2 flex flex-col items-center bg-[#F2EFE5] p-6 rounded-2xl shadow-lg">
-            <h1 className="text-[#fe5617] font-extrabold text-[32px] mb-4">
-              Npm-Libray-Logzap
+          {/* Time-Tracker Project */}
+           <div className="w-full md:w-1/2 flex flex-col items-center bg-[#F2EFE5] p-6 rounded-2xl shadow-lg">
+            <h1 className="text-[#a217fe] font-extrabold text-[32px] mb-4">
+              Time-Tracker App
             </h1>
             <p className="text-lg text-gray-700 mb-4">
-              Logzap is a minimalistic utility that simplifies your JavaScript
-              logging. Instead of cluttering your code with console.log(), just
-              use write() to log any data in a cleaner, more readable way.
-              Perfect for developers who want to streamline their debugging
-              process without compromising on clarity!
+              A time-tracking application that helps users manage their tasks and productivity. Built using React.js for the frontend with a clean and intuitive interface styled with Tailwind CSS.
             </p>
             <a
-              href="https://www.npmjs.com/package/logzap"
-              className="text-[#fe5617] font-bold text-lg hover:underline"
+              href="https://timetracker-web.netlify.app/"
+              className="text-[#a217fe] font-bold text-lg hover:underline"
             >
               Live Demo
             </a>
-          </div> */}
+          </div>
         </div>
 
         {/* Project 3 and 4 in one row */}
         <div className="flex flex-col md:flex-col gap-10 mt-10">
-          {/* CoderLobby Project */}
-          {/* <div className="w-full md:w-1/2 flex flex-col place-self-end items-center bg-[#F2EFE5] p-6 rounded-2xl shadow-lg">
-            <h1 className="text-[#fe5617] font-extrabold text-[32px] mb-4">
-              CoderLobby
+          {/* ColorPalatte Generator Project */}
+           <div className="w-full md:w-1/2 flex flex-col place-self-end items-center bg-[#F2EFE5] p-6 rounded-2xl shadow-lg">
+            <h1 className="text-[#a217fe] font-extrabold text-[32px] mb-4">
+              AI-ColorPalate Generator
             </h1>
             <p className="text-lg text-gray-700 mb-4">
-              A learning platform where users can buy course keys and access
-              full frontend courses. The platform is built using the MERN stack
-              and Firebase for course storage.
+              An AI-powered color palette generator that creates harmonious color schemes based on user input. Built with React.js and styled using Tailwind CSS.
+              using the OpenRouter API Models.
             </p>
             <a
-              href="https://coderlobby.tech/"
-              className="text-[#fe5617] font-bold text-lg hover:underline"
+              href="https://color-palate-generator.netlify.app/"
+              className="text-[#a217fe] font-bold text-lg hover:underline"
             >
               Live Demo
             </a>
-          </div> */}
+          </div>
 
-          {/* Cinerate Project */}
-          {/* <div className="w-full md:w-1/2 flex flex-col  bg-[#F2EFE5] p-6 rounded-2xl shadow-lg">
-            <h1 className="text-center text-[#fe5617] font-extrabold text-[32px] mb-4">
-              Cinerate
+          {/* NoteBook Project */}
+           <div className="w-full md:w-1/2 flex flex-col  bg-[#F2EFE5] p-6 rounded-2xl shadow-lg">
+            <h1 className="text-center text-[#a217fe] font-extrabold text-[32px] mb-4">
+             NoteBook App
             </h1>
             <p className="text-lg text-gray-700 mb-4">
-              A movie platform where users can browse movies, view details, and
-              ratings. Built using React.js and the TMDb API for movie data.
+              Simple KeepNotes web App using React and Tailwindcss, Backend using a firebase database connection include this app 
             </p>
             <a
-              href="https://cinerates.netlify.app/"
-              className="text-center text-[#fe5617] font-bold text-lg hover:underline"
+              href="https://my-notebook-web.netlify.app/"
+              className="text-center text-[#a217fe] font-bold text-lg hover:underline"
             >
               Live Demo
             </a>
-          </div> */}
+          </div>
         </div>
 
         {/* Project 5 and 6 in one row */}
         <div className="flex flex-col md:flex-col gap-10 mt-10">
           {/* React Weather Pro Project */}
           {/* <div className="w-full md:w-1/2 flex flex-col place-self-end items-center bg-[#F2EFE5] p-6 rounded-2xl shadow-lg">
-            <h1 className="text-[#fe5617] font-extrabold text-[32px] mb-4">
+            <h1 className="text-[#a217fe] font-extrabold text-[32px] mb-4">
               React Weather Pro
             </h1>
             <p className="text-lg text-gray-700 mb-4">
@@ -118,7 +110,7 @@ const Project = () => {
             </p>
             <a
               href="https://weatherfixpro.netlify.app/"
-              className="text-[#fe5617] font-bold text-lg hover:underline"
+              className="text-[#a217fe] font-bold text-lg hover:underline"
             >
               Live Demo
             </a>
@@ -126,7 +118,7 @@ const Project = () => {
 
           {/* Landing Pages Bundle */}
           {/* <div className="w-full md:w-1/2 flex flex-col  bg-[#F2EFE5] p-6 rounded-2xl shadow-lg">
-            <h1 className="text-center text-[#fe5617] font-extrabold text-[32px] mb-4">
+            <h1 className="text-center text-[#a217fe] font-extrabold text-[32px] mb-4">
               Landing Pages Bundle
             </h1>
             <p className="text-lg text-gray-700 mb-4">
@@ -136,7 +128,7 @@ const Project = () => {
             </p>
             <a
               href="https://github.com/AMOHAMMEDIMRAN/Amazing-Landing-Page"
-              className="text-center text-[#fe5617] font-bold text-lg hover:underline"
+              className="text-center text-[#a217fe] font-bold text-lg hover:underline"
             >
               Live Demo
             </a>

@@ -42,10 +42,10 @@ const About = () => {
         {/* About Me Section */}
         <p className="text-xl md:text-2xl text-gray-700 text-center leading-relaxed">
           I’m <span className="font-bold text-[#a217fe]">Premkumar</span>,
-          Aspiring Full Stack Developer specialized in the modern JavaScript ecosystem. 
-          Proficient in crafting modular frontend components with React and styling with Tailwind CSS, supported by a portfolio of functional web projects. 
-          Distinguished by advanced design proficiency in Adobe Creative Suite, allowing for rapid prototyping and high-fidelity visual development. 
-          Eager to contribute to a fast-paced team and grow within a full-stack environment.
+          Aspiring React Developer and UI Designer with a strong foundation in crafting modular, responsive front-end components
+using React and Tailwind CSS. Proficient in bridging the gap between high-fidelity prototypes and production-ready code,
+supported by professional experience in Adobe Creative Suite and Figma. Developed functional web applications including
+a cloud storage platform and interactive canvas tools, demonstrating expertise in state management and API integration.
         </p>
 
         {/* Skills Section */}

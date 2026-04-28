@@ -116,10 +116,10 @@ a cloud storage platform and interactive canvas tools, demonstrating expertise i
               <SiMongodb size={40} className="text-[#47a248]" />
               <span className="font-bold">MongoDB</span>
             </div>
-            {/* <div className="flex flex-col items-center space-y-2">
+            <div className="flex flex-col items-center space-y-2">
               <SiNextdotjs size={40} className="text-black" />
               <span className="font-bold">Next.js</span>
-            </div> */}
+            </div>
             {/* <div className="flex flex-col items-center space-y-2">
               <SiJsonwebtokens size={40} className="text-[#232F3E]" />
               <span className="font-bold">JWT</span>
@@ -147,11 +147,11 @@ a cloud storage platform and interactive canvas tools, demonstrating expertise i
             {/* <div className="flex flex-col items-center space-y-2">
               <SiGraphql size={40} className="text-[#e535ab]" />
               <span className="font-bold">GraphQL</span>
-            </div>
+            </div> */}
             <div className="flex flex-col items-center space-y-2">
               <IoLogoVercel size={40} className="text-[#000]" />
               <span className="font-bold">Vercel</span>
-            </div> */}
+            </div> 
             <div className="flex flex-col items-center space-y-2">
               <SiNetlify size={40} className="text-[#00d1b2]" />
               <span className="font-bold">Netlify</span>
